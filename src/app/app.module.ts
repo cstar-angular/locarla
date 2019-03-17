@@ -9,7 +9,6 @@ import { CompanyInfoComponent } from './components/company-info/company-info.com
 import { DataSheetComponent } from './components/data-sheet/data-sheet.component';
 import { DataTableComponent } from './components/data-table/data-table.component';
 import { WrapperComponent } from './components/wrapper/wrapper.component';
-import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import { HomeComponent } from './components/home/home.component';
     CompanyInfoComponent,
     DataSheetComponent,
     DataTableComponent,
-    WrapperComponent,
-    HomeComponent
+    WrapperComponent
   ],
   imports: [
     BrowserModule,
